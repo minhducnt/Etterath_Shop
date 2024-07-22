@@ -1,0 +1,73 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-header {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding: 20px;
+  gap: 20px;
+}
+
+.home-logo {
+  object-fit: contain;
+  width: 20rem;
+}
+
+.home-desc {
+  font-size: 18px;
+  margin-left: 7px;
+  font-weight: 300;
+}
+
+.cover-img {
+  padding: 5px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.card-title {
+  text-align: center;
+
+  span {
+    font-size: 18px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.card-desc {
+  text-align: center;
+
+  span {
+    font-size: 14px;
+  }
+}
+
+.btn-view-details {
+  color: white;
+  width: calc(100% - 24px);
+  border-radius: 0;
+
+  &:hover {
+    color: white !important;
+  }
+}
+.menu-card-item {
+  cursor: unset;
+
+  .ant-card-actions {
+    border-top: unset;
+  }
+}

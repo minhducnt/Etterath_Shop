@@ -1,0 +1,1 @@
+sass --watch D:\Dropbox\Shahnewaz\etterath\etterath-prv\etterath\assets\scss\main.scss:D:\Dropbox\Shahnewaz\etterath\etterath-prv\etterath\assets\css\main.css

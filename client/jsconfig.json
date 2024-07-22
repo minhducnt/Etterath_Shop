@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@/*": ["./src/*"],
+            "@assets/*": ["./public/assets/*"],
+            "@svgs": ["./public/assets/svgs/_index.js"]
+        }
+    }
+}

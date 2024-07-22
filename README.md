@@ -1,2 +1,1 @@
-# Etterath_Shop
-HCMUTE Capstone Project
+# etterath_shop
